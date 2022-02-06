@@ -1,6 +1,40 @@
 const questions = [
     {
         question: "What type of language is JavaScript?",
-        
-    }
-]
+        a: "Object-Oriented",
+        b: "Object-Based",
+        c: "Assembly-language",
+        d: "High-level",
+        correct: "b",
+    },
+    {
+        question: "The 'function' and 'var' are known as:",
+        a: "Keywords",
+        b: "Data Types",
+        c: "Declaration statements",
+        d: "Prototypes",
+        correct: "c",
+    },
+    {
+        question: "Which is the correct way of calling the JavaScript code?",
+        a: "Preprocessor",
+        b: "Triggering Event",
+        c: "Variable",
+        d: "Function/Method",
+        correct: "d",
+    },
+    {
+        question: "Is JavaScript a case sensitive language?",
+        a: "True",
+        b: "False",
+        correct: "a",
+    },
+    {
+        question: "Which is the following is not a JavaScript datatype?",
+        a: "Float",
+        b: "String",
+        c: "True",
+        d: "Boolean",
+        correct: "c",
+    },
+];
