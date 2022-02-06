@@ -47,8 +47,8 @@ h1{
     background-color: #fafafa;
     border-radius: 10px;
     align-items: center;
-    width: 1000px;
-    height: 1300px;
+    width: 900px;
+    height: 1000px;
     padding: 8%;
     padding-top: 2rem;   
 }
@@ -67,10 +67,28 @@ h2{
     color: white;
     border: none;
     display: block;
-    height: 1cm;
+    height: 1.5cm;
     width: 100%;
     border-radius: 10px;
     font-size: 1.5em;
     margin-top: 50px;
     cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+}
+.answer-btn[value="Answer"]{
+    padding: 20%;
+    font-size: 2em;
+}
+button{
+    font-size: 3em;
+}
+#submit{
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    width: 5cm;
+    border: none;
+    margin-top: 10px;
 }

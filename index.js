@@ -1,5 +1,7 @@
 function mySubmissionPage() {
     var score=0;
+    var results=document.getElementById('results');
+    var quizzes=document.getElementById('quizzes');
     if (document.getElementById('correct1').checked)
     {
         score+=20;
@@ -20,6 +22,8 @@ function mySubmissionPage() {
     {
         score+=20;
     }
+    results.textContent='${score}';
+    quizzes.style.display="none";
     document.write("Your score is:" +score);
 
 
@@ -29,6 +33,7 @@ function mySubmissionPage() {
         corr.textContent="Your score is $(score). Good, Keep Up"
 
     }
+
 
 }
 
