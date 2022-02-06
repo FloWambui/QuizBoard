@@ -38,3 +38,41 @@ const questions = [
         correct: "c",
     },
 ];
+const quizbox= document.getElementById('quizbox')
+const answerE1s = document.querySelectorAll('.answer')
+const questionE1= document.getElementsByClassName('question')
+const a_answ= document.getElementById('a_answ')
+const b_answ= document.getElementById('b_answ')
+const c_answ= document.getElementById('c_answ')
+const d_answ= document.getElementById('d_answ')
+const answerBtn = document.getElementById('answer')
+
+let currentquizbox = 0
+let score = 0
+
+loadquizbox()
+
+function loadquizbox() {
+    deselectAnswers()
+    const currentquestions = questions[currentquizbox]
+    questionE1.innerText = currentquestions.question
+    a_answ.innerText =currentquestions.a
+    b_answ.innerText =currentquestions.b
+    c_answ.innerText =currentquestions.c
+    d_answ.innerText =currentquestions.d
+
+}
+
+function deselectAnswers() {
+    answerE1s.forEach(answerE1s => answerE1s.checked = false)
+}
+
+function getSelected() {
+    let answerE1s
+    answerE1s.forEach(answerE1s => {
+        if(answerE1s.checked) {
+            answer = answerE1.id
+        }
+    })
+    return answer
+}
