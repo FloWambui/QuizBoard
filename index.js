@@ -1,21 +1,49 @@
-function mySubmissionPage(){
-    document.write("score");
+function mySubmissionPage() {
     var score=0;
-    var qstn1=document.quizzes.question1.value;
-    var qstn2=document.quizzes.question2.value;
-    var qstn3=document.quizzes.question3.value;
-    var qstn4=document.quizzes.question4.value;
-    var qstn5=document.quizzes.question5.value;
-    var results=document.getElementsByName("myresults");
+    if (document.getElementById('correct1').checked)
+    {
+        score+=20;
+    }
+    if (document.getElementById('correct2').checked)
+    {
+        score+=20;
+    }
+    if (document.getElementById('correct3').checked)
+    {
+        score+=20;
+    }
+    if (document.getElementById('correct4').checked)
+    {
+        score+=20;
+    }
+    if (document.getElementById('correct5').checked)
+    {
+        score+=20;
+    }
+    document.write("Your score is:" +score);
 
-
-    if (qstn1=="Object-Based"){score++};
-    if (qstn2=="Declaration Statements") {score++};
-    if (qstn3=="Function/Method") {score++};
-    if (qstn4=="True") {score++};
-    if (qstn5=="Data") {score++};
-        document.write(score);
 }
+
+
+
+// function mySubmissionPage(){
+//     document.write("score");
+//     var score=0;
+//     var qstn1=document.quizzes.question1.value;
+//     var qstn2=document.quizzes.question2.value;
+//     var qstn3=document.quizzes.question3.value;
+//     var qstn4=document.quizzes.question4.value;
+//     var qstn5=document.quizzes.question5.value;
+//     var results=document.getElementsByName("myresults");
+
+
+//     if (qstn1=="Object-Based"){score++};
+//     if (qstn2=="Declaration Statements") {score++};
+//     if (qstn3=="Function/Method") {score++};
+//     if (qstn4=="True") {score++};
+//     if (qstn5=="Data") {score++};
+//         document.write(score);
+// }
 
 
 
