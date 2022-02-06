@@ -47,8 +47,8 @@ h1{
     background-color: #fafafa;
     border-radius: 10px;
     align-items: center;
-    width: 600px;
-    height: 300px;
+    width: 1000px;
+    height: 1300px;
     padding: 8%;
     padding-top: 2rem;   
 }
@@ -56,14 +56,13 @@ h3{
     text-align: center;
     padding-left: 3rem;
 }
-ul{
-    list-style: none;
-    padding: 0;
+h2{
+    margin: 10px;
+    font-size: 1.5rem;
 }
-ul li{
-    margin: 10px 0;
-}
-button{
+
+
+.answer-btn{
     background-color: black;
     color: white;
     border: none;
@@ -75,9 +74,7 @@ button{
     margin-top: 50px;
     cursor: pointer;
 }
-ul li label{
-    cursor: pointer;
-}
+
 .button:hover{
 
 }
