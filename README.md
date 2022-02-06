@@ -18,7 +18,10 @@ An interactive question board for users to view questions and submit answers to 
 The interface is designed using figma wireframes as attached: [Figma](https://www.figma.com/file/YXZkPUEYXa3no1n9VYNUK1/QuizBoard-Site?node-id=0%3A1).
 
 **Appearance**
-![](p)
+### Home Page.
+![](pictures/homepage.png)
+### Questions Page
+![](pictures/questionspage.png)
 
 ### Requirements
 
