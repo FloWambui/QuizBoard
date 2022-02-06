@@ -48,7 +48,7 @@ h1{
     border-radius: 10px;
     align-items: center;
     width: 900px;
-    height: 1000px;
+    height: 1200px;
     padding: 8%;
     padding-top: 2rem;   
 }
@@ -60,8 +60,6 @@ h2{
     margin: 10px;
     font-size: 1.5rem;
 }
-
-
 .answer-btn{
     background-color: black;
     color: white;
@@ -91,4 +89,10 @@ button{
     width: 5cm;
     border: none;
     margin-top: 10px;
+}
+.Qstns input{
+    margin: 12px;
+}
+#results{
+    background-color: black;
 }
