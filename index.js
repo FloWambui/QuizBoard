@@ -71,8 +71,24 @@ function getSelected() {
     let answerE1s
     answerE1s.forEach(answerE1s => {
         if(answerE1s.checked) {
-            answer = answerE1.id
+            answer = answerE1s.id
         }
     })
     return answer
 }
+answerBtn.addEventListener('click', () => {
+    const answer = getSelected()
+    if(answer) {
+        if(answer === questions[currentquizbox].correct){
+            score++
+        }
+        currentquizbox++
+
+        if(currentquizbox < questions.length) {
+            loadquizbox()
+        } else {
+            quizbox.innerHTML =
+        
+        }
+    }
+})
