@@ -22,9 +22,7 @@ The interface is designed using figma wireframes as attached: [Figma](https://ww
 **Questions Page**
 ![This is QuizBoard's Questions Section](pictures/questionspage.png)
 **Live Page**
-```
-This is the link to the live page:
-```
+> This is the link to the live page:(https://flowambui.github.io/QuizBoard/)
 
 ### Requirements
 
