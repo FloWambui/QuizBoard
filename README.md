@@ -22,12 +22,14 @@ The interface is designed using figma wireframes as attached: [Figma](https://ww
 **Questions Page**
 ![This is QuizBoard's Questions Section](pictures/questionspage.png)
 **Live Page**
+```
 This is the link to the live page:
+```
 
 ### Requirements
 
 * Access to a desktop or laptop.
-* An access to the Internet
+* An access to the Internet.
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
@@ -43,5 +45,5 @@ This is the link to the live page:
 
 ## Authors Info
 
-Email Address- [Florence Wambui](gflorencewambui@gmail.com))
+Email Address- [Florence Wambui](gflorencewambui@gmail.com)
 
