@@ -22,6 +22,14 @@ function mySubmissionPage() {
     }
     document.write("Your score is:" +score);
 
+
+    if(score==100){
+        correct1.textContent="Your score is $(score). Excellent Perfomance!"
+    } else{
+        corr.textContent="Your score is $(score). Good, Keep Up"
+
+    }
+
 }
 
 
