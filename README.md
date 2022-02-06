@@ -8,7 +8,6 @@ An interactive question board for users to view questions and submit answers to 
 + [Interface Design](#Interface-design)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
-+ [Licence](#licence)
 + [Authors Info](#author-Info)
 
 ## Description
@@ -17,11 +16,13 @@ An interactive question board for users to view questions and submit answers to 
 ### Interface Design
 The interface is designed using figma wireframes as attached: [Figma](https://www.figma.com/file/YXZkPUEYXa3no1n9VYNUK1/QuizBoard-Site?node-id=0%3A1).
 
-**Appearance**
-### Home Page.
-![](pictures/homepage.png)
-### Questions Page
-![](pictures/questionspage.png)
+### Apperance.
+**Homepage**
+![This is QuizBoard's Homepage](pictures/homepage.png)
+**Questions Page**
+![This is QuizBoard's Questions Section](pictures/questionspage.png)
+**Live Page**
+This is the link to the live page:
 
 ### Requirements
 
@@ -29,9 +30,11 @@ The interface is designed using figma wireframes as attached: [Figma](https://ww
 * An access to the Internet
 
 ## Technology Used
-* HTNL - which was used to build the structure of the pages.
+* HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the web pages.
+
+* JavaScript - which was used to make the webpage dynamic.
 
 ## Reference
 * Tutorials Point
@@ -40,8 +43,5 @@ The interface is designed using figma wireframes as attached: [Figma](https://ww
 
 ## Authors Info
 
-Slack Profile - [Albert Byrone](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)
+Email Address- [Florence Wambui](gflorencewambui@gmail.com))
 
-Linked - [Albert Byrone](https://www.linkedin.com/in/albert-byrone-664811144/)
-
-[Go Back to the top](#portfolio)
