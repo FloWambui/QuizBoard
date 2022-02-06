@@ -15,16 +15,16 @@ An interactive question board for users to view questions and submit answers to 
 <p>This is  a website that  allows userd to test their know-how in JavaScript by taking curated questions and having their scores displayed upon submitting the chosen answers.</p>
 
 ### Interface Design
-|----------------------|
+The interface is designed using figma wireframes as attached: [Figma](https://www.figma.com/file/YXZkPUEYXa3no1n9VYNUK1/QuizBoard-Site?node-id=0%3A1).
+
+**Appearance**
+![](p)
 
 ### Requirements
 
 * Access to a desktop or laptop.
 * An access to the Internet
 
-### Installation Process
-
-[Go Back to the top](#portfolio)
 ## Technology Used
 * HTNL - which was used to build the structure of the pages.
 
