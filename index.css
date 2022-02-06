@@ -40,8 +40,7 @@ h1{
 .quiz-box{
     background-color: rgba(154, 163, 186, 1);
     display: flex;
-    justify-content: center;
-    /* text-align: center; */
+    justify-content: cent
 }
 .quiz-header{
     background-color: #fafafa;
