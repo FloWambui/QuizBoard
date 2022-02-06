@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgba(154, 163, 186, 1);
+    
 }
 h1{
     color: white;
@@ -35,4 +36,48 @@ h1{
     cursor: pointer;
     transition: 9sc;
     transform: scale(1.1ms);
+}
+.quiz-box{
+    background-color: rgba(154, 163, 186, 1);
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.quiz-header{
+    background-color: #fafafa;
+    border-radius: 10px;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    padding: 8%;
+    padding-top: 2rem;   
+}
+h3{
+    text-align: center;
+    padding-left: 3rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    margin: 10px 0;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    display: block;
+    height: 1cm;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin-top: 50px;
+    cursor: pointer;
+}
+ul li label{
+    cursor: pointer;
+}
+.button:hover{
+
 }
